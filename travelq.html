@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <br>
+    <br>
     <form action="/server">
         <h1>Travel reservation form</h1>
         <h3>* denotes mandatory</h3>
@@ -20,16 +22,16 @@
             <input type="email" id="address" name="@" placeholder="EMAIL_ADDRESS" required>
         </div>
         <div>
-            <label for="place">Select Tour Package*:</label>
+            <label for="place">Gender*:</label>
             <br>
             <select id="place" name="p" required>
                 <option>Choose</option>
-                <option value="goa">Goa</option>\
-                <option value="Shimla">Shimla</option>
-                <option value="Kerala">Kerala</option>
+                <option value="Goa">Male</option>\
+                <option value="Shimla">Female</option>
+                <option value="Kerala" style="font-weight: bold;">VAMPIRE</option>
             </select>
         </div>
-        <div>
+                <div>
             <label for="date">Arrival Date*:</label>
             <br>
             <input type="date" id="date" name="d" required>
